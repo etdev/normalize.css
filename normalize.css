@@ -10,6 +10,15 @@
  *    IE on Windows Phone and in iOS.
  */
 
+/* Custom Additions */
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* End Custom Additions*/
+
 html {
   font-family: sans-serif; /* 1 */
   line-height: 1.15; /* 2 */
@@ -459,3 +468,4 @@ template {
 [hidden] {
   display: none;
 }
+
