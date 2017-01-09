@@ -32,8 +32,8 @@ p {
 }
 ul,
 ol {
-    margin-top: $leading;
-    margin-bottom: $leading;
+    margin-top: 0;
+    margin-bottom: 0;
     li {
         line-height: $leading;
     }
