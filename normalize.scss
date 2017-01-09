@@ -1,23 +1,21 @@
-/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.scss | MIT License | github.com/etdev/normalize.scss */
 
 /* Document
    ========================================================================== */
 
-/**
- * 1. Change the default font family in all browsers (opinionated).
- * 2. Correct the line height in all browsers.
- * 3. Prevent adjustments of font size after orientation changes in
- *    IE on Windows Phone and in iOS.
- */
+/* Custom Additions
+   ========================================================================== */
 
-/* Custom Additions */
+/* Imports */
+@import "mixins";
+@import "typography";
+
 ul, ol {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
-/* End Custom Additions*/
+/* Sections
+   ========================================================================== */
 
 html {
   font-family: sans-serif; /* 1 */
@@ -25,9 +23,6 @@ html {
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
 }
-
-/* Sections
-   ========================================================================== */
 
 /**
  * Remove the margin in all browsers (opinionated).
