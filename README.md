@@ -1,39 +1,12 @@
-# normalize.css
+# normalize.scss
 
-<a href="https://github.com/necolas/normalize.css"><img
-  src="https://necolas.github.io/normalize.css/logo.svg" alt="Normalize Logo"
-  width="80" height="80" align="right"></a>
-
-> A modern alternative to CSS resets
-
-[![npm][npm-image]][npm-url] [![license][license-image]][license-url]
-[![changelog][changelog-image]][changelog-url]
-[![gitter][gitter-image]][gitter-url]
-
-
-**NPM**
-
-```sh
-npm install --save normalize.css
-```
-
-**Bower**
-
-```sh
-bower install --save normalize-css
-```
-
-**CDN**
-
-See https://cdnjs.com/libraries/normalize
-
-**Download**
-
-See https://necolas.github.io/normalize.css/latest/normalize.css
-
+> A modern alternative to SCSS resets
 
 ## What does it do?
 
+* Includes basic typography styles from [typebase](https://github.com/devinhunt/typebase.css/)
+* Includes various additional styles and mixins
+* Includes my personal additional styles
 * Preserves useful defaults, unlike many CSS resets.
 * Normalizes styles for a wide range of elements.
 * Corrects bugs and common browser inconsistencies.
